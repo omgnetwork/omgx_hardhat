@@ -1,0 +1,29 @@
+{
+  "name": "@omgnetwork/omgx_hardhat",
+  "version": "1.0.0",
+  "description": "Hardhat node and configuration",
+  "scripts": {
+    "start": "hardhat node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum-optimism/hardhat.git"
+  },
+  "keywords": [
+    "hardhat",
+    "ethereum"
+  ],
+  "author": "Ethereum Optimism",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereum-optimism/hardhat/issues"
+  },
+  "homepage": "https://github.com/ethereum-optimism/hardhat#readme",
+  "dependencies": {
+    "@ethersproject/hdnode": "^5.0.5",
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.11"
+  }
+}
